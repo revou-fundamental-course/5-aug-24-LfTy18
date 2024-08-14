@@ -1,0 +1,164 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 20px;
+    background-color: #f4f4f4;
+}
+
+.container {
+    max-width: 1000px;
+    margin: auto;
+    background: #fff;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+p {
+    font-size: 14px;
+    color: #666;
+}
+
+main{
+    display: flex;
+}
+
+form {
+    display: flex;
+    flex-direction: column ;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"], input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.radio-group {
+    display: flex;
+    gap: 10px;
+}
+
+.radio-group label {
+    font-weight: normal;
+}
+
+.button-group {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    color: white;
+}
+
+.btn-secondary {
+    background-color: #6c757d;
+    color: white;
+}
+
+.features, .result, .disease-list {
+    margin-top: 30px;
+}
+
+.features h2, .disease-list h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.features ul, .disease-list ul {
+    list-style: none;
+    padding-left: 20px;
+}
+
+.features ul li, .disease-list ul li {
+    margin-bottom: 8px;
+}
+
+.result .result-box {
+    margin-top: 30px;
+    text-align: center;
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.result .bmi-value {
+    font-size: 48px;
+    margin: 10px 0;
+    font-weight: bold;
+}
+
+.result .btn-download {
+    background-color: #008bff;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 4px;
+    text-decoration: none;
+    display: inline-block;
+    margin-bottom: 15px;
+}
+
+.additional-info {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #666;
+}
+
+.additional-info p {
+    margin-bottom: 10px;
+}
+
+.action-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.action-buttons a {
+    padding: 10px 15px;
+    border-radius: 4px;
+    color: white;
+    text-decoration: none;
+}
+
+.btn-consult {
+    background-color: #17a2b8;
+}
+
+.btn-register {
+    background-color: #28a745;
+}
+
+.download-apps {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.download-apps img {
+    width: 120px;
+    margin: 10px;
+}
